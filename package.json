@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "d3-ease": "^1.0.3",
+    "exenv": "^1.2.2",
+    "prop-types": "^15.6.1",
+    "react-move": "^2.7.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4"
   },
@@ -20,6 +23,10 @@
     "gulp-clean-css": "^3.9.3",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.0",
+    "nuka-carousel": "^3.2.0",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2"
   }
 }

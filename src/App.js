@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 
 
+import './Assets/css/bootstrap.min.css';
 import './Assets/css/default.min.css';
 import Header from './components/headerComponent/header';
 import Footer from './components/footerComponent/footer';

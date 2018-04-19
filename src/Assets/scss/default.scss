@@ -10,7 +10,7 @@ header {
 
   .logo {
     position: absolute;
-    top: 50%; left: 15px;
+    top: 50%; left: 20%;
     @include translateY(-50%);
   }
 
@@ -23,7 +23,7 @@ header {
 
   nav {
     position: absolute;
-    top: 50%; right: 15px;
+    top: 50%; right: 20%;
     @include translateY(-50%);
 
     ul li {
