@@ -1,11 +1,31 @@
 import React, { Component } from 'react';
 import {
-  Link
+  Link,
+  Route
 } from 'react-router-dom';
-import '../../Assets/scss/navigation.scss';
-import '../../Assets/css/navigation.css';
+import '../Assets/css/navigation.css';
+import Gamelist from './pages/gamelistPage';
 
 class Navigation extends Component {
+
+  constructor(props){
+    super(props);
+
+    this.state = {
+      header: "Header",
+      content: "Content"
+    }
+
+    this.handlenavigation = this.handlenavigation.bind(this);
+  }
+
+  handlenavigation(){
+    this.setState({
+      header: this.state.header,
+      content: this.state.content,
+      id: this.state.id
+    });
+  }
 
   render() {
 
@@ -16,7 +36,9 @@ class Navigation extends Component {
         <nav className="sidebarnav">
           <ul>
             <li className="first">
-              <Link to="/">GYMCRAFT</Link>
+              <Link to="/Gamelist"
+                handleNavigation={this.handlenavigation}
+                header={this.state.header}>GYMCRAFT</Link>
             </li>
           </ul>
         </nav>

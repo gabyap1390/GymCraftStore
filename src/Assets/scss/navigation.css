@@ -1,0 +1,47 @@
+.sidebar {
+
+}
+
+.navheader {
+  font-size: 20px;
+}
+
+ul li {
+  list-style-type: none;
+
+}
+
+
+ul.topnavigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+
+}
+
+ul.topnavigation  li {
+    float: left;
+    padding: 3px;
+}
+
+ul.topnavigation  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3px 5px;
+    text-decoration: none;
+}
+
+ul.topnavigation  li a:hover {
+    background-color: #111;
+}
+
+ul.topnavigation input {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+}

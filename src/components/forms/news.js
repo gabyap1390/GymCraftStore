@@ -11,7 +11,7 @@ class News extends Component {
 
     return (
 
-      <div className='form'>
+      <div className='container-fluid'>
         <h1>
           News
         </h1>

@@ -10,7 +10,7 @@ class Specialoffers extends Component {
 
 
     return (
-      <div className='form'>
+      <div className='container-fluid'>
         <h1>
           Special offers
         </h1>
